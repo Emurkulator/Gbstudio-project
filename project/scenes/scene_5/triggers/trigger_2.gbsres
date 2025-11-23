@@ -1,0 +1,58 @@
+{
+  "_resourceType": "trigger",
+  "id": "28322da6-9f07-4f06-8421-02c5542a78be",
+  "name": "",
+  "prefabId": "",
+  "x": 3,
+  "y": 1,
+  "symbol": "trigger_9",
+  "prefabScriptOverrides": {},
+  "width": 1,
+  "height": 2,
+  "script": [
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_MENU",
+            "args": {
+              "variable": "L0",
+              "items": 2,
+              "option1": "Dad's Tea",
+              "option2": "Lemons",
+              "option3": "",
+              "option4": "",
+              "option5": "",
+              "option6": "",
+              "option7": "",
+              "option8": "",
+              "cancelOnB": true,
+              "layout": "dialogue"
+            },
+            "id": "48492fe4-3dba-489f-8b2e-1b16d425143a"
+          },
+          {
+            "command": "EVENT_REMOVE_INPUT_SCRIPT",
+            "args": {
+              "input": [
+                "a"
+              ]
+            },
+            "id": "4b68dee8-705e-4e18-8528-5dfe8a8d2a8a"
+          }
+        ]
+      },
+      "id": "369a390c-4b66-4334-8794-292e96d477f6"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 1
+}

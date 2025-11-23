@@ -1,0 +1,67 @@
+{
+  "_resourceType": "trigger",
+  "id": "24338b90-fd65-4728-a209-b0095ec170c1",
+  "name": "",
+  "prefabId": "",
+  "x": 4,
+  "y": 3,
+  "symbol": "trigger_5",
+  "prefabScriptOverrides": {},
+  "width": 1,
+  "height": 1,
+  "script": [
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a",
+          "b"
+        ],
+        "override": false,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "It isn't\ntime for that!"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "9f81f3dc-9873-4e26-9827-4458335465c8"
+          },
+          {
+            "command": "EVENT_REMOVE_INPUT_SCRIPT",
+            "args": {
+              "input": [
+                "b",
+                "a"
+              ]
+            },
+            "id": "9844f460-66d5-467b-bc1e-2c74fefccd3e"
+          }
+        ]
+      },
+      "id": "fbc66a5c-a2db-4142-a528-6ad4ff7a7764"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 1
+}

@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "a183c8aa-1eea-4314-874c-2d492a57de07",
+  "name": "Indoor Template",
+  "symbol": "bg_indoor_template",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "Indoor Template.png",
+  "tileColors": "0022+04!0015+04!0094+034+0010+034+0010+034+0010+034+005b+",
+  "autoColor": false
+}

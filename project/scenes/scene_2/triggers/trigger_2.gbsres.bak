@@ -1,0 +1,70 @@
+{
+  "_resourceType": "trigger",
+  "id": "adb78f2a-2512-4399-a717-b6c21064f8dd",
+  "name": "",
+  "prefabId": "",
+  "x": 10,
+  "y": 5,
+  "symbol": "trigger_4",
+  "prefabScriptOverrides": {},
+  "width": 2,
+  "height": 1,
+  "script": [
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a",
+          "b"
+        ],
+        "override": false,
+        "__scriptTabs": "press",
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Dear son,\nI have gone to the\nMushroom land in\nsearch of a \nmagical mushroom.",
+                "It is said\nto bring happiness\nand visions of the\nFUTURE!\nAt least that's ",
+                "what your\nUncle Ray told me."
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": 3,
+              "speedOut": 3,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "b66c3d2a-1b7c-4107-bd1e-845da6c89d80"
+          },
+          {
+            "command": "EVENT_REMOVE_INPUT_SCRIPT",
+            "args": {
+              "input": [
+                "b",
+                "a"
+              ]
+            },
+            "id": "a26dc8cb-a7b4-45f9-b7bf-cc4eabbbed05"
+          }
+        ]
+      },
+      "id": "0e6808fe-e8e8-4167-99bd-2f9c4fa80852"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 1
+}

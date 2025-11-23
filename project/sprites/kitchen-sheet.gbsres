@@ -1,0 +1,101 @@
+{
+  "_resourceType": "sprite",
+  "id": "98b41870-1d5b-4ab8-8150-98b7ac2a85e1",
+  "name": "kitchen-Sheet",
+  "symbol": "sprite_kitchen_sheet",
+  "numFrames": 2,
+  "filename": "kitchen-Sheet.png",
+  "checksum": "406c02f4e9d08e9842a3dd6a896b5a8eb807d35d",
+  "width": 32,
+  "height": 224,
+  "states": [
+    {
+      "id": "ae9d2b8e-bdbe-42b4-9cd8-234847961d38",
+      "name": "",
+      "animationType": "multi_movement",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "46f83629-c282-4901-87dd-8148a2b9fa11",
+          "frames": [
+            {
+              "id": "644771c0-9ab5-448b-93b8-c103ab6a70ef",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "6e27fbf4-1345-4c82-bb84-910d4ff2063b",
+          "frames": [
+            {
+              "id": "6289abcf-767f-4bc3-a5f3-63380febc644",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "620e340d-88f1-4db7-a8be-53de3cbe6a00",
+          "frames": [
+            {
+              "id": "1933a879-8f7d-4a8e-969d-5c1a3b3dd296",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "677601c2-08b9-44f8-93ff-5b1c5983f0d3",
+          "frames": [
+            {
+              "id": "5d488754-8b1c-46a8-a67a-54b85423dd6b",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "88c43456-81e2-4baf-b348-52e25a9bbcc8",
+          "frames": [
+            {
+              "id": "f9ef6e48-c2c6-45a7-a2f8-cc819a42dbb3",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "47a75359-d443-46af-908b-4d460033e537",
+          "frames": [
+            {
+              "id": "e4a9a0c0-bf93-41a2-b53a-c04128526ab4",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "2b6b4f50-cf8e-47bd-aca8-9869345169f8",
+          "frames": [
+            {
+              "id": "42c720a7-c5ae-42e5-a838-6a4d0aacf219",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "eac6bb88-677d-4cf5-9d0e-5daa4afaa324",
+          "frames": [
+            {
+              "id": "41e74288-677a-4d03-9f8e-f691073e1dfb",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 0,
+  "canvasWidth": 32,
+  "canvasHeight": 32,
+  "boundsX": 0,
+  "boundsY": 0,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15
+}

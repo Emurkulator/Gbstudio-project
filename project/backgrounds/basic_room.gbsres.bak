@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "a3e067f8-68fb-40ed-aca5-a314b37a4bdb",
+  "name": "basic room",
+  "symbol": "bg_basic_room",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "basic room.png",
+  "tileColors": ""
+}

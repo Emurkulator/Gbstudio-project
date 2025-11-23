@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "122e2e8f-4583-448a-b73a-1141a18fc80f",
+  "name": "basicromt",
+  "symbol": "bg_basicromt",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "basicromt.png",
+  "autoColor": false,
+  "tileColors": ""
+}

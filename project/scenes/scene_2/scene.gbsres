@@ -1,0 +1,38 @@
+{
+  "_resourceType": "scene",
+  "id": "7d31ec7b-0aba-4bce-b120-48ef9fb380a2",
+  "_index": 0,
+  "type": "ADVENTURE",
+  "name": "Scene 2",
+  "symbol": "scene_1",
+  "x": 496,
+  "y": 584,
+  "width": 20,
+  "height": 18,
+  "backgroundId": "501935fd-10ec-4cb8-a6cf-bdb4978a31ec",
+  "tilesetId": "",
+  "paletteIds": [
+    "dmg",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "dmg"
+  ],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
+  "playerSpriteSheetId": "7757f86d-8d39-4878-a401-287d6a2cb3c8",
+  "script": [
+    {
+      "command": "EVENT_MUSIC_STOP",
+      "args": {},
+      "id": "4d2d09c2-27c8-4561-bdbd-f4d68e4851bb"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": "0f2c+00e+0f6+00e+0f6+00e+0f4+0010+0f4+0010+0f4+0010+0f4+0010+0f4+0010+0f4+0010+0f4+00f+0f5+0010+0f4+0010+0f4+0010+0f4+00b+0fc+30!002+20!0f11+002+0fc+"
+}

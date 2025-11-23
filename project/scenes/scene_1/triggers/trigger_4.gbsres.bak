@@ -1,0 +1,68 @@
+{
+  "_resourceType": "trigger",
+  "id": "76b66c6c-0f46-4d81-a874-073e53d9f7c9",
+  "name": "",
+  "prefabId": "",
+  "x": 17,
+  "y": 12,
+  "symbol": "trigger_6",
+  "prefabScriptOverrides": {},
+  "width": 1,
+  "height": 3,
+  "script": [
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ],
+        "override": false,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "In todays news;",
+                "Odd biological \ngrowths have \nstarted infesting \nthe lands beyond \nthe forest!",
+                "Large creatures \nthat look like \nmagic mushrooms \nare rampaging \nthrough the city!"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "15a91699-7a4d-4384-9711-079289708d4c"
+          }
+        ]
+      },
+      "id": "30e3f064-59b3-4629-a810-5cfebf7d83b8"
+    },
+    {
+      "command": "EVENT_REMOVE_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ],
+        "__collapse": false
+      },
+      "id": "b24c7ddd-c256-48ef-922d-4c355893970d"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 3
+}

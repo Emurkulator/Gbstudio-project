@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "448b9c61-e0de-40c2-8fb4-5597f4879ec3",
+  "name": "Backgroundtown",
+  "symbol": "bg_backgroundtown",
+  "width": 108,
+  "height": 40,
+  "imageWidth": 864,
+  "imageHeight": 320,
+  "filename": "Backgroundtown.png",
+  "tileColors": ""
+}
